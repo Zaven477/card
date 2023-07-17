@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+.posName {
+  position: absolute;
+  padding-top: 150px;
+  z-index: 5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.ml {
+  margin-left: 600px;
+  font-size: 11px;
+  color: #800080;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.sizeName {
+  width: 260px;
+  height: 26px;
+  border-radius: 6px;
+  margin-left: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.mlError {
+  margin-left: 600px;
+  color: red;
+}
+
+
+.posCard {
+  position: absolute;
+  padding-top: 230px;
+  z-index: 4;
+}
+
+
+.mlCard {
+  margin-left: 600px;
+  font-size: 11px;
+  color: #800080;
+}
+
+
+.sizeCard {
+  width: 260px;
+  height: 26px;
+  border-radius: 6px;
+  margin-left: 600px;
+}
+
+
+.mlCardError {
+  margin-left: 600px;
+  color: red;
+}
+
+
+
+.posDate {
+  position: absolute;
+  padding-top: 320px;
+  z-index: 3;
+}
+
+
+.mlDate {
+  margin-left: 600px;
+  font-size: 11px;
+  color: #800080;
+  
+}
+
+
+.sizeDate {
+  width: 55px;
+  height: 26px;
+  border-radius: 6px;
+  margin-left: 600px;
+}
+
+
+
+.mlDateError {
+  margin-left: 600px;
+  color: red;
+}
+
+
+.posYear {
+  position: absolute;
+  padding-top: 320px;
+  z-index: 2;
+}
+
+
+.mlYear {
+  margin-left: 655px;
+  font-size: 11px;
+  color: #800080;
+}
+
+
+.sizeYear {
+  width: 55px;
+  height: 26px;
+  border-radius: 6px;
+  margin-left: 675px;
+}
+
+
+.mlYearError {
+   margin-left: 675px;
+   color: red;
+}
+
+
+
+.posCvc {
+  position: absolute;
+  padding-top: 320px;
+  z-index: 1;
+}
+
+
+.mlCvc {
+  margin-left: 760px;
+  font-size: 11px;
+  color: #800080;
+}
+
+
+.sizeCvc {
+  width: 100px;
+  height: 26px;
+  border-radius: 6px;
+  margin-left: 760px;
+}
+
+
+.mlCvcError {
+  margin-left: 760px;
+  color: red;
+}
+
+
+
+.btn {
+  margin-left: 600px;
+  margin-top: 460px;
+  width: 270px;
+  padding: 10px 0;
+  border-radius: 6px;
+  border: 0;
+  background-color: #4B0082;
   color: white;
+  cursor: pointer
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  border: 1px solid red;
 }
